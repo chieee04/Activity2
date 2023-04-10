@@ -23,5 +23,52 @@
     font-size: 20px;
     text-shadow: 1px 1px 0px black;
 }
+#blog{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+img{
+    height: 150px;
+    width: 250px;
+    align-items: center;
+}
+#blog div{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    border-image-width: auto;
+    box-shadow: 1px 1px 1px lightgray;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 15px;
+}
+div h3{
+    margin-right: 115px;
+}
+div p{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+}
+div a{
+    margin-right: 135px;
+    color: gray;
+    text-decoration: none;
+}
+div:nth-child(4){
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+div:nth-child(4) a:hover{
+    background-color: rgb(0, 132, 172);
+}
+
+
 
 
